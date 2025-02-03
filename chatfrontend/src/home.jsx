@@ -22,7 +22,7 @@ function Home() {
 
   useEffect(() => {
     console.log("Initializing socket...");
-    const socket = io("http://localhost:7000/");
+    const socket = io("https://chatback-plum.vercel.app/");
   
     setsocket(socket);
   
